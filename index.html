@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Gemstone Collector</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="assets/css/style.css" />
+    <script
+    src="https://code.jquery.com/jquery-3.3.1.min.js"
+    integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+    crossorigin="anonymous"></script>
+</head>
+
+<body>
+
+    <h1><strong>Gemstone Collector </strong> </h1>
+    <br>
+    <div id="rules">
+        <p>
+            <h2>Instructions</h2>
+            <p id="rulesBody">You will be given a number below at the start of the game.
+                <br> Each crystal has a secret number value. Click them to make your score match the given number.
+                <br>You win when the number matches. If you go over that number, you lose.
+                <br>The values of the crystals will reset when you win or lose the game.
+                <h3 id="goodLuck"> Good Luck! </h3>
+            </p>
+    </div>
+<div id=theNumber>
+    <h1>  </h1>
+</div>
+<div >
+    <h2>Your Current Number:</h2><p id="totalScore"></p>
+</div>
+
+<div class="gemstones">
+
+</div>
+<div id="counters">
+<p>Wins:</p><p id= "wins"></p> 
+<p>Losses:</p><p id= "losses"></p>
+</div>
+
+
+
+
+
+<script src="assets/javascript/game.js"></script>
+</body>
+
+</html>

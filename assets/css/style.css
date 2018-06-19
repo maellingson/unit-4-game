@@ -1,0 +1,74 @@
+body{
+    background-color: lightskyblue;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: center;
+}
+
+h1{
+    background-color: lightgrey;
+    width: 100%;
+    height: 70px;
+    padding: 5px;
+    color: purple
+}
+#rules{
+    background-color: lightcyan;
+    width: 75%;
+    border-width: 5px;
+    border-style: solid;
+    border-color: lightseagreen;
+   align-content: center;
+   margin: auto;
+   line-height: 2em;
+
+}
+
+
+#theNumber{
+    background-color: lightsteelblue;
+    width: 75%;
+    height: 75px;
+    vertical-align: middle;
+    margin: auto;
+    font-size: 40px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+
+}
+
+#counters{
+    background-color: lightyellow;
+    width: 75%;
+    margin: auto;
+
+
+} 
+
+#totalScore{
+    background-color: mintcream;
+    width: 25%;
+    height: 75px;
+    vertical-align: middle;
+    font-size: 30px;
+    margin: auto;
+    margin-bottom: 10px;
+}
+
+.gemstones{
+    border-style: solid;
+    border-color: black;
+    border-width: 2px;
+    align-items: center; 
+    justify-content: space-around;
+    display: flex;
+}
+.gemstone{
+    border-width: 1px;
+    border-style: solid;
+    border-color: black;
+    height: 200px;
+    width: 200px;
+}
+img{
+    width: 50px;
+}
