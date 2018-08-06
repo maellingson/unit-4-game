@@ -1,5 +1,6 @@
 Gemstone Collector
 The Gemstone Collector game was made for the University of Minnsota Coding Bootcamp. 
+Link to the game: https://maellingson.github.io/unit-4-game/
 
 The instructions are located in the game:
 <img width="839" alt="screen shot 2018-08-06 at 5 06 59 pm" src="https://user-images.githubusercontent.com/35227935/43743427-695f4a6e-999b-11e8-814e-fac80a5e0b54.png">
